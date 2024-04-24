@@ -24,6 +24,10 @@ const handleGameOver = () => {
   window.prompt("Respuesta")
   alert("Suceso repentino que sobrevenga por causa o con ocasión del trabajo, y que produzca en el trabajador una lesión orgánica, perturbación funcional, invalidez o muerte.");
   window.prompt("Respuesta")
+  alert("Se refiere a todas las acciones y decisiones humanas, que pueden causar una situación insegura o incidente, con consecuencias para el trabajador, la producción, el medio ambiente y otras personas..");
+  window.prompt("Respuesta")
+  alert("Enfermedad contraída como resultado de la exposición a factores de riesgo inherentes a la actividad laboral o del medio en el que el trabajador se ha visto obligado a trabajar..");
+  window.prompt("Respuesta")
   location.reload();
 }
 
