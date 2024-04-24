@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JUEGO DE LA SERPIENTE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    
+    <meta name="viewpot" content="width=device-widh, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="imagenes/dido-circular.png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+   <div id="1-cubo">
+    <img class="did"   src="imagenes/LOGO-DIDO-SINFONDO-PNG.png" alt="didojuegos">
+   <h1 class="tit">SNAKE DIDO</h1>
+ <div>
+    <button id="open"><a></a>INSTRUCCIONES</button>
+      
+    <div id="modal_container" class="modal-container">
+      <div class="modal">
+        <h1>INSTRUCCIONES</h1>
+        <p>Objetivo: Controla una serpiente y hazla crecer tanto como sea posible sin chocar contra los bordes del área de juego o contra tu propia cola, al momento de chocar contra alguno de los mismos saldrá una alerta con dos preguntas que tendrás que responder.
+            <p>Controles: Utiliza las teclas de dirección (arriba, abajo, izquierda, derecha).</p>
+            <p>Puntuación: La puntuación del juego se basa en la longitud de la serpiente.</p>
+            <p>Fin del juego: Cuando choques contra los bordes del área o tu cola, aparecerán dos preguntas y si las contestas correctamente te permitirá reiniciar.</p>
+            <p>Preguntas: .</p>
+            ¡Diviértete jugando y trata de superar tu puntuación más alta!</p>
+        <button id="close">Cerrar</button>
+      </div>
+    </div>
+</div>
+   
+    <div class="fondo"></div>
+    </div>
+<div class="wrapper">
+    <div class="game-details">
+       <div class="score"> Score 0:</div>
+       <div class="high-score"> High Score: 40</div>
+    </div>
+    <div class="play-board"></div>
+</div>
+
+    <script src="script.js"></script>
+
+
+           
+
+    
+ 
+</body>
+</html>
